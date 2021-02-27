@@ -179,7 +179,7 @@ Resources:
         Fn::GetAtt:
         - SageMakerNotebookRole
         - Arn
-      DefaultCodeRepository: https://github.com/glyfnet/timeseries_blog.git
+      DefaultCodeRepository: https://github.com/YuriNako/Forecast-sales.git
   InputCloudTrailBucket:
     Type: AWS::S3::Bucket
     Properties:
